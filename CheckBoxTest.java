@@ -1,17 +1,17 @@
-// Fig. 12.10: TextFieldTest.java
-// Testing TextFieldFrame.
+// Fig. 12.18: CheckBoxTest.java
+// Testing CheckBoxFrame.
 import javax.swing.JFrame;
 
-public class TextFieldTest
+public class CheckBoxTest
 {
    public static void main(String[] args)
    { 
-      TextFieldFrame textFieldFrame = new TextFieldFrame(); 
-      textFieldFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-      textFieldFrame.setSize(350, 100); 
-      textFieldFrame.setVisible(true); 
+      CheckBoxFrame checkBoxFrame = new CheckBoxFrame(); 
+      checkBoxFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+      checkBoxFrame.setSize(275, 100); 
+      checkBoxFrame.setVisible(true); 
    } 
-} // end class TextFieldTest
+} // end class CheckBoxTest
 
 /**************************************************************************
  * (C) Copyright 1992-2014 by Deitel & Associates, Inc. and               *
