@@ -22,7 +22,7 @@ public class ComboBoxFrame extends JFrame
       setLayout(new FlowLayout()); // titulo     
 
       imagesJComboBox = new JComboBox<String>(names); // seleciona JComboBox
-      imagesJComboBox.setMaximumRowCount(4); // exibe 3 linhas
+      imagesJComboBox.setMaximumRowCount(3); // exibe 3 linhas
 
       imagesJComboBox.addItemListener(
          new ItemListener() // classe anonima
