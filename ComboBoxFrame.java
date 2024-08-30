@@ -8,12 +8,13 @@ public class ComboBoxFrame extends JFrame
    private final JLabel label;
 
    private static final String[] names = 
-      {"bug1.gif", "bug2.gif",  "travelbug.gif", "buganim.gif"};
+      {"bug1.gif", "bug2.gif",  "travelbug.gif", "buganim.gif", "cir.png"};
    private final Icon[] icons = { 
       new ImageIcon(getClass().getResource(names[0])),
       new ImageIcon(getClass().getResource(names[1])), 
       new ImageIcon(getClass().getResource(names[2])),
-      new ImageIcon(getClass().getResource(names[3]))};
+      new ImageIcon(getClass().getResource(names[3])),
+      new ImageIcon(getClass().getResource(names[4]))};
 
    // construor ComboBoxFrame adiciona JComboBox para JFrame
    public ComboBoxFrame()
@@ -22,7 +23,7 @@ public class ComboBoxFrame extends JFrame
       setLayout(new FlowLayout()); // titulo     
 
       imagesJComboBox = new JComboBox<String>(names); // seleciona JComboBox
-      imagesJComboBox.setMaximumRowCount(3); // exibe 3 linhas
+      imagesJComboBox.setMaximumRowCount(2); // exibe 2 linhas
 
       imagesJComboBox.addItemListener(
          new ItemListener() // classe anonima
