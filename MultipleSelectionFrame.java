@@ -62,7 +62,7 @@ public class MultipleSelectionFrame extends JFrame
             {
                // adiciona valor selecionado na copyJList
                copyJList2.setListData(
-                  colorJList.getSelectedValuesList().toArray(
+                  copyJList.getSelectedValuesList().toArray(
                      new String[0]));
             }
          } 
